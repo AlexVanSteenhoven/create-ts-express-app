@@ -1,0 +1,1 @@
+{"name":"","version":"1.0.0","description":"","main":"build/index.js","keywords":[],"scripts":{"start":"npm run build && node build/index.js","build":"tsc -p .","dev":"nodemon --config nodemon.json -r tsconfig-paths/register src/index.ts","test":"mocha --check-leaks -r ts-node/register -r tsconfig-paths/register \"tests/**/*.spec.ts\""},"license":"ISC"}

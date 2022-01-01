@@ -1,5 +1,8 @@
 # create-ts-express-app
 
+[![npm_version](https://img.shields.io/npm/v/create-ts-express-app?style=for-the-badge)](https://github.com/AlexVanSteenhoven/create-ts-express-app)
+[![npm_license](https://img.shields.io/npm/l/create-ts-express-app?style=for-the-badge)](https://github.com/AlexVanSteenhoven/create-ts-express-app/LICENSE)
+
 ## Getting started
 
 Install `create-ts-express-app` globally
