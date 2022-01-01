@@ -1,6 +1,6 @@
 {
   "name": "create-ts-express-app",
-  "version": "0.1.0-alpha",
+  "version": "0.1.0",
   "description": "A CLI Tool to generate a express web app or api with typescript support",
   "main": "./lib/index.js",
   "bin": {
