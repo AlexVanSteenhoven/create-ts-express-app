@@ -1,0 +1,49 @@
+{
+  "name": "create-ts-express-app",
+  "version": "0.1.0-alpha",
+  "description": "A CLI Tool to generate a express web app or api with typescript support",
+  "main": "./lib/index.js",
+  "bin": {
+    "create-ts-express-app": "./bin/create-ts-express-app"
+  },
+  "scripts": {
+    "start": "npm run build && npm run global",
+    "lint": "tslint -p . --fix",
+    "build": "tsc -p .",
+    "global": "npm i -g && create-ts-express-app",
+    "publish-package": "npm run build && npm publish"
+  },
+  "dependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.2.0",
+    "kleur": "^4.1.4",
+    "moment": "^2.29.1",
+    "superagent": "^6.1.0",
+    "tslib": "^2.3.1"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.5.4",
+    "@types/inquirer": "^8.1.3",
+    "@types/node": "^17.0.5",
+    "adm-zip": "^0.5.9",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexVanSteenhoven/create-ts-express-app.git"
+  },
+  "keywords": [
+    "CLI",
+    "Typescript",
+    "NodeJS"
+  ],
+  "author": "Alex van Steenhoven <alex.steenhoven@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexVanSteenhoven/create-ts-express-app/issues"
+  },
+  "homepage": "https://github.com/AlexVanSteenhoven/create-ts-express-app#readme"
+}
